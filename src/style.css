@@ -108,3 +108,9 @@ p {
   outline: #94aef1;
   padding: 1px 10px;
 }
+small {
+  font-size: 30%;
+  font-weight: 200;
+  position: relative;
+  bottom: -14px;
+}
