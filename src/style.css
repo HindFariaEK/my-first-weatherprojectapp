@@ -21,11 +21,12 @@
 
 input {
   border-radius: 5px;
-  border: 3px solid #9191ec;
+  border: 2px solid #9191ec;
   position: relative;
   top: -200px;
   right: -280px;
-  box-shadow: 0.5px 0.5px 5px 0px rgba(3, 17, 5, 0.24);
+  box-shadow: 0.5px 0.5px 5px 0px rgba(3, 17, 5, 0.267);
+  background: #f9f7fe;
 }
 button.my-btn {
   padding: 6px 15px;
@@ -105,6 +106,7 @@ p {
 .search-bar {
   outline: #94aef1;
   padding: 1px 10px;
+  font-size: 14px;
 }
 small {
   font-size: 30%;
