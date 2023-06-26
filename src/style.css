@@ -21,10 +21,11 @@
 
 input {
   border-radius: 5px;
-  border: 5px solid #fdfdfe;
+  border: 3px solid #9191ec;
   position: relative;
   top: -200px;
   right: -280px;
+  box-shadow: 0.5px 0.5px 5px 0px rgba(3, 17, 5, 0.24);
 }
 button.my-btn {
   padding: 6px 15px;
