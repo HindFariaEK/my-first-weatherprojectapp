@@ -27,11 +27,11 @@
   <body class="rectangle">
     <div class="today-date">April 17th, Monday</div>
     <h1 class="city">
-      <div id="searchcity">Tripoli</div>
+      <div id="searchcity"></div>
 
-      <div id="temp">25 °C</div>
+      <div id="temp"></div>
 
-      ☁️
+      <img src="" alt="Clear" id="icon" class="float-left" />
     </h1>
     <form id="form">
       <input
@@ -45,6 +45,7 @@
     <br />
     <br />
     <ul>
+      <li><span id="description"></span></li>
       <li>Humidity: <span id="humidity"></span>%</li>
       <li>Wind: <span id="wind"></span> km/h</li>
     </ul>
@@ -52,23 +53,28 @@
       <div class="row">
         <div class="col tue date-emojis">
           <div class="date-titles">TUE.</div>
-          ☀️ <i class="fa-regular fa-eye fa-2xs eye-icon"></i>
+          <span class="icon">☀️</span>
+          <i class="fa-regular fa-eye fa-2xs eye-icon"></i>
         </div>
         <div class="col wed date-emojis">
           <div class="date-titles">WED.</div>
-          ☁️<i class="fa-regular fa-eye fa-2xs eye-icon"></i>
+          <span class="icon">☁️</span
+          ><i class="fa-regular fa-eye fa-2xs eye-icon"></i>
         </div>
         <div class="col thu date-emojis">
           <div class="date-titles">THU.</div>
-          🌧️<i class="fa-regular fa-eye fa-2xs eye-icon"></i>
+          <span class="icon">🌧️</span
+          ><i class="fa-regular fa-eye fa-2xs eye-icon"></i>
         </div>
         <div class="col fri date-emojis">
           <div class="date-titles">FRI.</div>
-          🌤️<i class="fa-regular fa-eye fa-2xs eye-icon"></i>
+          <span class="icon">🌤️</span
+          ><i class="fa-regular fa-eye fa-2xs eye-icon"></i>
         </div>
         <div class="col sat date-emojis">
           <div class="date-titles">SAT.</div>
-          🌞<i class="fa-regular fa-eye fa-2xs eye-icon"></i>
+          <span class="icon">🌞</span
+          ><i class="fa-regular fa-eye fa-2xs eye-icon"></i>
         </div>
       </div>
     </div>
