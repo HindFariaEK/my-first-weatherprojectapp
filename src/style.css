@@ -60,6 +60,10 @@ button.my-btn:hover {
   top: 104px;
   left: 197px;
 }
+#icon {
+  position: relative;
+  top: -30px;
+}
 
 li {
   border: 0px solid #ffffff;
@@ -72,8 +76,8 @@ li {
   font-weight: 500;
   padding: 5px;
   position: relative;
-  left: 394px;
-  bottom: 52px;
+  left: 372px;
+  bottom: 94px;
   list-style: none;
 }
 
