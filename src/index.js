@@ -83,11 +83,18 @@ function showWeather(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
+
 function search(event) {
   event.preventDefault();
-  let apiKey = "b2d9fa1f2b35557e4615dd5fab218834";
   let city = document.querySelector("#searchBar").value;
 
+  searchCity(city);
+}
+
+function searchCity(city) {
+  let apiKey = "b2d9fa1f2b35557e4615dd5fab218834";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(showWeather);
 }
+
+searchCity("Tripoli");
