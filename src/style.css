@@ -63,6 +63,24 @@ button.my-btn:hover {
 #icon {
   position: relative;
   top: -30px;
+  right: 20px;
+}
+
+.units {
+  font-size: small;
+  position: relative;
+  top: -85px;
+  left: 100px;
+}
+#celsius-link {
+  text-decoration: none;
+  color: #94aef1;
+  font-weight: 800;
+}
+#fahrenheit-link {
+  text-decoration: none;
+  color: #5143ae;
+  font-weight: 800;
 }
 
 li {
