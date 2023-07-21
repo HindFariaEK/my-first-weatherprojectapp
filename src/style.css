@@ -123,12 +123,7 @@ li:first-letter {
 .eye-icon {
   margin: 10px;
   padding: 16px 0px 10px;
-}
-.date-titles {
   font-size: 10px;
-  font-weight: 600;
-  position: relative;
-  right: -7px;
 }
 .search-bar {
   outline: #94aef1;
@@ -140,4 +135,23 @@ small {
   font-weight: 200;
   position: relative;
   bottom: -14px;
+}
+.weather-forecast {
+  font-size: 10px;
+  font-weight: 700;
+  position: relative;
+  left: 6px;
+
+  margin-bottom: -15px;
+}
+.weather-forecast-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-date {
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.7;
+  position: relative;
+  right: -7px;
 }
