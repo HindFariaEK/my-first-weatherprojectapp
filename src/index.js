@@ -65,7 +65,8 @@ function lookforCity(event) {
 let cityForm = document.querySelector("#form");
 cityForm.addEventListener("submit", search);
 
-function displayForecast() {
+function displayForecast(response) {
+  console.log(response.data);
   let forecastElement = document.querySelector(".container");
 
   let forecastHTML = `<div class="row">`;
@@ -90,6 +91,12 @@ function displayForecast() {
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
 }
+function getForecast(coordinates) {
+  console.log(coordinates);
+  let apiKey = "b40b135798f82a05aed08769f9275f50";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
 function showWeather(response) {
   document.querySelector("#searchcity").innerHTML = response.data.name;
   document.querySelector("#temp").innerHTML = Math.round(
@@ -108,6 +115,8 @@ function showWeather(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
+
+  getForecast(response.data.coord);
 }
 
 function search(event) {
@@ -124,4 +133,3 @@ function searchCity(city) {
 }
 
 searchCity("Tripoli");
-displayForecast();
