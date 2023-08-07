@@ -153,4 +153,4 @@ function searchCity(city) {
   axios.get(apiUrl).then(showWeather);
 }
 
-searchCity("Tripoli");
+searchCity("Libya");
