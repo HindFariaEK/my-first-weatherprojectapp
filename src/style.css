@@ -105,11 +105,7 @@ li:first-letter {
   transform: scale(1.1);
   transition: all 500ms ease-in-out;
 }
-.eye-icon {
-  margin: 10px;
-  padding: 16px 0px 10px;
-  font-size: 1px;
-}
+
 .search-bar {
   outline: #94aef1;
   padding: 1px 10px;
@@ -119,8 +115,8 @@ small {
   font-size: 30%;
   font-weight: 300;
   position: relative;
-  bottom: -14px;
-  opacity: 50%;
+  bottom: -25px;
+  opacity: 40%;
 }
 .weather-forecast {
   font-size: 10px;

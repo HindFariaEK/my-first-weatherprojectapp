@@ -103,7 +103,7 @@ function displayForecast(response) {
               forecastDataDay.temp.min
             )}</span>
           </div>
-          <i class="fa-regular fa-eye fa-2xs eye-icon"></i>
+          
         </div>
         `;
     }
