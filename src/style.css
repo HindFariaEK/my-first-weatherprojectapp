@@ -58,7 +58,7 @@ button.my-btn:hover {
   padding: 15px 25px;
   position: relative;
   top: 104px;
-  left: 197px;
+  left: 222px;
 }
 #icon {
   position: relative;
@@ -108,7 +108,7 @@ li:first-letter {
 .eye-icon {
   margin: 10px;
   padding: 16px 0px 10px;
-  font-size: 8px;
+  font-size: 1px;
 }
 .search-bar {
   outline: #94aef1;
