@@ -83,8 +83,7 @@ function displayForecast(response) {
     if (index < 6) {
       forecastHTML =
         forecastHTML +
-        ` <div class="container text-center">
-        <div class="col-2 date-forecast">
+        `<div class="col-2 date-forecast text-center">
           <div class="weather-forecast-date">${formatDay(
             forecastDataDay.dt
           )}</div>
@@ -105,8 +104,6 @@ function displayForecast(response) {
             )}</span>
           </div>
           <i class="fa-regular fa-eye fa-2xs eye-icon"></i>
-        </div>
-        </div>
         </div>
         `;
     }

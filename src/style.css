@@ -63,7 +63,7 @@ button.my-btn:hover {
 #icon {
   position: relative;
   top: -30px;
-  right: 20px;
+  right: 15px;
 }
 
 .units {
@@ -98,9 +98,6 @@ li:first-letter {
 .date-forecast {
   font-size: 25px;
   border-radius: 50%;
-  margin: 10px;
-  position: relative;
-  top: 38px;
   color: #5143ae;
 }
 .date-forecast:hover {
